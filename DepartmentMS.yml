@@ -11,13 +11,6 @@ spring:
       ddl-auto: update
     show-sql: true
 
-#Actuator endpoint engagement
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
 #Application Port
 server:
   port: 9001
