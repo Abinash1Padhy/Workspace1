@@ -2,7 +2,7 @@
 server:
   port: 9002
 
-#Application configs
+#Application DB settings
 spring:
   application:
     name: UserMS
