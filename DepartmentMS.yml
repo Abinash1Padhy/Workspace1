@@ -1,3 +1,8 @@
+#Application Port
+server:
+  port: 9001
+
+#Application DB settings
 spring:
   application:
     name: DepartmentMS
@@ -10,7 +15,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-#Application Port
-server:
-  port: 9001
