@@ -1,3 +1,10 @@
+#Actuator endpoint management
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
 #Eureka Client related settings
 eureka:
   instance:
