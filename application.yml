@@ -1,3 +1,7 @@
+#Shutdown endpoint
+server:
+  shutdown: graceful
+
 #Actuator endpoint management
 management:
   endpoints:
