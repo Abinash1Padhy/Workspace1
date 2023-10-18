@@ -1,6 +1,6 @@
 #Application Port
 server:
-  port: 9002
+  port: 0
 
 #Application DB settings
 spring:
